@@ -4,8 +4,11 @@ import React from 'react'
 
 const Logo = ({className}: {className?: string}) => {
   return (
-    <Link href="/" className={cn("text-2xl font-bold text-gray-800", className)}>
-      <h2>
+    <Link href="/">
+      <h2 className={cn(
+        "text-2xl font-bold text-darker-tan-sand tracking-widest uppercase font-serif hover:text-dark-tan-sand transition-colors duration-280 ease-in-out",
+         className
+        )}>
         <span>Davalos</span> Clothing
       </h2>
     </Link>
