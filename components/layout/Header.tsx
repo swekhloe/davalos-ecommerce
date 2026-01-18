@@ -5,18 +5,24 @@ import HeaderMenu from './HeaderMenu'
 import SearchBar from './SearchBar'
 import CartIcon from './CartIcon'
 import FavoriteButton from './FavoriteButton'
+import LoginButton from './LoginButton'
+import MobileMenu from './MobileMenu'
 
 const Header = () => {
   return (
-    <header className="w-full py-5 border-b border-dark-tan-sand">
+    <header className="py-5 border-b border-dark-tan-sand">
         <Container className="text-nowrap flex items-center justify-between">
-          <Logo/>
+          <div className="w-auto flex items-center justify-start space-x-4">
+            <MobileMenu/>
+            <Logo/>
+          </div>
           <HeaderMenu/>
-        <div className="w-autoflex md:w-1/3 flex justify-end items-center space-x-4">
-          <SearchBar/>
-          <FavoriteButton/>
-          <CartIcon/>
-        </div>
+          <div className="hidden md:inline-flex w-auto pl-8 justify-end items-center gap-1 space-x-4">
+            <SearchBar/>
+            <FavoriteButton/>
+            <CartIcon/>
+            <LoginButton/>
+          </div>
           {/*User Account*/}
         </Container>
         
