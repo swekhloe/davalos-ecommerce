@@ -11,13 +11,13 @@ import MobileMenu from './MobileMenu'
 const Header = () => {
   return (
     <header className="py-5 border-b border-dark-tan-sand">
-        <Container className="text-nowrap flex items-center justify-between">
+        <Container className="flex items-center justify-between">
           <div className="w-auto flex items-center justify-start space-x-4">
             <MobileMenu/>
             <Logo/>
           </div>
           <HeaderMenu/>
-          <div className="hidden md:inline-flex w-auto pl-8 justify-end items-center gap-1 space-x-4">
+          <div className="hidden sm:inline-flex w-auto pl-8 justify-end items-center gap-1 space-x-4">
             <SearchBar/>
             <FavoriteButton/>
             <CartIcon/>

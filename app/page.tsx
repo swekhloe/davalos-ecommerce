@@ -5,7 +5,7 @@ import Container from "@/components/layout/Container";
 
 export default function Home() {
   return (
-    <Container className = "w-auto flex bg-cover bg-light-gray-sand min-h-screen flex-col items-center justify-between p-24">
+    <Container className = "w-auto flex bg-light-gray-sand min-h-screen flex-col items-center justify-between p-24">
       <main className="flex items-center justify-between p-24">
         <div className = "relative mb-10 justify-center items-center">
           <h2 className="text-xl font-bold">Hello.</h2>
