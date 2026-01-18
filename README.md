@@ -2,15 +2,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Davalos Clothing Website
 
+Davalos Clothing is a project I created for a client to list clothing that they wanted to highlight for sale. This web application should provide the basic functionality of a public-facing ecommerce website that allows customers to view, favorite, and purchase clothing listed by the Seller (client).
+
 Testing was conducted by running the development server:
 
 ```bash
 npm run dev
 
 ```
-
-Davalos Clothing is a project I created for a client to list clothing that they wanted to highlight for sale. This web application should provide the basic functionality of a public-facing ecommerce website that allows customers to view, favorite, and purchase clothing listed by the Seller (client).
-
 ## Features
 
 The web application should incorporate the following features:
