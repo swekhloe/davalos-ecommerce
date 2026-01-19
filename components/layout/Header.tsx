@@ -10,14 +10,14 @@ import MobileMenu from './MobileMenu'
 
 const Header = () => {
   return (
-    <header className="py-5 border-b border-dark-tan-sand">
+    <div className="py-5 bg-white border-dark-tan-sand">
         <Container className="flex items-center justify-between">
-          <div className="w-auto flex items-center justify-start space-x-4">
+          <div className="w-auto md:w-1/3 flex items-center justify-start gap-2.5 md:gap-0">
             <MobileMenu/>
             <Logo/>
           </div>
           <HeaderMenu/>
-          <div className="hidden sm:inline-flex w-auto pl-8 justify-end items-center gap-1 space-x-4">
+          <div className="w-auto md:w-1/3 flex justify-end items-center pl-8 gap-4">
             <SearchBar/>
             <FavoriteButton/>
             <CartIcon/>
@@ -26,7 +26,7 @@ const Header = () => {
           {/*User Account*/}
         </Container>
         
-    </header>
+    </div>
   )
 }
 

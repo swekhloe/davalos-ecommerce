@@ -12,6 +12,7 @@
   --gray-tan-sand: #e3d5ca;
   --dark-tan-sand: #d5bdaf;
   --darker-tan-sand: #856857;
+  --darkest-tan-sand: #503424;
 
 
   --radius: 0.625rem;
@@ -60,6 +61,7 @@
   --color-gray-tan-sand: var(--gray-tan-sand);
   --color-dark-tan-sand: var(--dark-tan-sand);
   --color-darker-tan-sand: var(--darker-tan-sand);
+  --color-darkest-tan-sand: var(--darkest-tan-sand);
 
   /*Next.js provided colors*/
   --color-background: var(--background);

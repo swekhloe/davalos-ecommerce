@@ -8,5 +8,4 @@ const LoginButton = () => {
     </Link>
   )
 }
-
 export default LoginButton
